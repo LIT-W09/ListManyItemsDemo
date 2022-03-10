@@ -1,0 +1,74 @@
+﻿@model ShowAddManyViewModel
+
+@if (!String.IsNullOrEmpty(Model.Message))
+{
+    <div class="alert alert-success alert-dismissible show" role="alert">
+        <span>@Model.Message</span>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+}
+
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+        <form method="post" action="/home/AddMultipleFoodItems">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Calorie Count</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <input type="text" class="form-control" placeholder="Name" name="foodItems[0].Name" />
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" placeholder="Price" name="foodItems[0].Price" />
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" placeholder="Calorie Count" name="foodItems[0].CalorieCount" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" class="form-control" placeholder="Name" name="foodItems[1].Name" />
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" placeholder="Price" name="foodItems[1].Price" />
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" placeholder="Calorie Count" name="foodItems[1].CalorieCount" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" class="form-control" placeholder="Name" name="foodItems[2].Name" />
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" placeholder="Price" name="foodItems[2].Price" />
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" placeholder="Calorie Count" name="foodItems[2].CalorieCount" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="text" class="form-control" placeholder="Name" name="foodItems[3].Name" />
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" placeholder="Price" name="foodItems[3].Price" />
+                        </td>
+                        <td>
+                            <input type="text" class="form-control" placeholder="Calorie Count" name="foodItems[3].CalorieCount" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <button class="btn btn-success btn-block btn-lg">Submit</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListManyFoodItems.Web", "ListManyFoodItems.Web\ListManyFoodItems.Web.csproj", "{76425D0B-8594-40A8-A53F-22DFF8CFB2CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListManyFoodItems.Data", "ListManyFoodItems.Data\ListManyFoodItems.Data.csproj", "{1BCA7CD7-2D92-433C-A71A-5A7147D8159E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76425D0B-8594-40A8-A53F-22DFF8CFB2CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76425D0B-8594-40A8-A53F-22DFF8CFB2CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76425D0B-8594-40A8-A53F-22DFF8CFB2CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76425D0B-8594-40A8-A53F-22DFF8CFB2CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BCA7CD7-2D92-433C-A71A-5A7147D8159E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BCA7CD7-2D92-433C-A71A-5A7147D8159E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BCA7CD7-2D92-433C-A71A-5A7147D8159E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BCA7CD7-2D92-433C-A71A-5A7147D8159E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F838771D-5CF4-4844-8749-4C57D23F8D7C}
+	EndGlobalSection
+EndGlobal
